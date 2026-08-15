@@ -510,6 +510,29 @@ body {
 
 @media (max-width: 800px) {
 
+   .research-section {
+    padding: 85px 20px;
+   }
+   
+   
+   .section-header {
+       margin-bottom: 40px;
+   }
+   
+   
+   .featured-project {
+       grid-template-columns: 1fr;
+   
+       gap: 35px;
+   
+       padding: 25px;
+   }
+   
+   
+   .project-content h3 {
+       font-size: 36px;
+   }
+
     .nav-container {
         padding: 18px 20px;
     }
