@@ -974,6 +974,29 @@ body {
    .publication-content h3 {
        font-size: 22px;
    }
+
+   .software-section {
+       padding: 80px 20px;
+   }
+   
+   
+   .software-grid {
+       grid-template-columns: 1fr;
+   
+       max-width: none;
+   }
+   
+   
+   .software-card {
+       min-height: auto;
+   
+       padding: 26px;
+   }
+   
+   
+   .software-card h3 {
+       font-size: 28px;
+   }
 }
 
 
