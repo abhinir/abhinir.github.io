@@ -289,7 +289,109 @@
         </div>
 
     </article>
+<!-- =========================
+     Safe Reinforcement Learning
+========================== -->
 
+<article class="secondary-project">
+
+    <div class="secondary-project-header">
+
+        <p class="project-eyebrow">
+            REINFORCEMENT LEARNING · SAFE CONTROL
+        </p>
+
+        <h3>
+            Safe Reinforcement Learning
+        </h3>
+
+        <h4>
+            Learning control policies with explicit safety constraints
+        </h4>
+
+        <p class="project-description">
+            We investigate reinforcement-learning controllers for
+            safety-critical nonlinear systems by combining PPO and TD3
+            with Control Barrier Function based safety filtering and
+            benchmarking them against SAC.
+        </p>
+
+        <p class="project-description">
+            The policies are trained on a unicycle obstacle-avoidance
+            environment and evaluated on unseen obstacle configurations
+            to study safety, learning performance, and generalization.
+        </p>
+
+    </div>
+
+
+    <div class="safe-rl-visuals">
+
+        <!-- Trajectories -->
+
+        <div class="safe-rl-figure">
+
+            <img
+                src="assets/images/safe-rl-trajectories.png"
+                alt="Safe reinforcement learning trajectories through training and unseen obstacle fields"
+            >
+
+            <p class="video-caption">
+                Learned policies generalizing to unseen obstacle configurations
+            </p>
+
+        </div>
+
+
+        <!-- Architecture -->
+
+        <div class="safe-rl-figure">
+
+            <img
+                src="assets/images/safe-rl-architecture.png"
+                alt="Safe reinforcement learning architecture using a CBF-QP safety filter"
+            >
+
+            <p class="video-caption">
+                RL policy with CBF-QP safety filtering
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="project-tags">
+
+        <span>Reinforcement Learning</span>
+        <span>PPO</span>
+        <span>TD3</span>
+        <span>SAC</span>
+        <span>Control Barrier Functions</span>
+        <span>PyTorch</span>
+
+    </div>
+
+
+    <div class="project-links">
+
+        <a
+            href="#"
+            class="project-link primary-project-link"
+        >
+            Report →
+        </a>
+
+        <a
+            href="#"
+            class="project-link"
+        >
+            Code
+        </a>
+
+    </div>
+
+</article>
 </section>
 
 
