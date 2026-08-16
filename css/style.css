@@ -657,11 +657,13 @@ body {
 .software-grid {
     display: grid;
 
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
 
     gap: 24px;
 
     margin-top: 45px;
+
+    max-width: 760px;
 }
 
 
