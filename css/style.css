@@ -402,12 +402,10 @@ body {
 
 .video-caption {
     margin-top: 9px;
-
     font-size: 13px;
-
     font-weight: 500;
-
     color: #777;
+    text-align: center;
 }
 
 
