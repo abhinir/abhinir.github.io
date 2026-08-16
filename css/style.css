@@ -769,6 +769,31 @@ body {
    .research-area-card {
        padding: 26px;
    }
+
+   .publications-section {
+       padding: 80px 20px;
+   }
+   
+   
+   .publication-card {
+       grid-template-columns: 1fr;
+   
+       gap: 25px;
+   
+       padding: 24px;
+   }
+   
+   
+   .publication-image img {
+       height: auto;
+   
+       max-height: 280px;
+   }
+   
+   
+   .publication-content h3 {
+       font-size: 22px;
+   }
 }
 
 
