@@ -1143,6 +1143,22 @@ body {
    .software-card h3 {
        font-size: 28px;
    }
+
+   .about-section {
+       padding: 80px 20px;
+   }
+   
+   
+   .about-grid {
+       grid-template-columns: 1fr;
+   
+       gap: 45px;
+   }
+   
+   
+   .contact-card {
+       padding: 26px;
+   }
 }
 
 
