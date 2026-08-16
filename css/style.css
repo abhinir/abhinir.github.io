@@ -661,3 +661,50 @@ body {
     }
 
 }
+
+/* =========================================
+   Secondary Research Projects
+========================================= */
+
+.secondary-project {
+    margin-top: 55px;
+
+    padding: 45px;
+
+    background: #ffffff;
+
+    border: 1px solid #e8e8e8;
+
+    border-radius: 18px;
+}
+
+
+.secondary-project-header {
+    max-width: 780px;
+
+    margin-bottom: 35px;
+}
+
+
+.secondary-project-header h3 {
+    font-size: clamp(30px, 4vw, 42px);
+
+    letter-spacing: -1.3px;
+
+    line-height: 1.1;
+
+    margin-bottom: 8px;
+}
+
+
+.secondary-project-header h4 {
+    font-size: 19px;
+
+    line-height: 1.4;
+
+    font-weight: 500;
+
+    color: #555;
+
+    margin-bottom: 22px;
+}
