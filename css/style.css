@@ -754,6 +754,21 @@ body {
    .safe-rl-figure img {
        height: auto;
    }
+   .research-areas-section {
+       padding: 80px 20px;
+   }
+   
+   
+   .research-areas-grid {
+       grid-template-columns: 1fr;
+   
+       gap: 18px;
+   }
+   
+   
+   .research-area-card {
+       padding: 26px;
+   }
 }
 
 
