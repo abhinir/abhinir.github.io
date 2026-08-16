@@ -636,6 +636,23 @@ body {
         font-size: 36px;
     }
 
+   .secondary-project {
+       padding: 25px;
+   
+       margin-top: 35px;
+   }
+   
+   
+   .safe-rl-visuals {
+       grid-template-columns: 1fr;
+   
+       gap: 25px;
+   }
+   
+   
+   .safe-rl-figure img {
+       height: auto;
+   }
 }
 
 
