@@ -356,25 +356,58 @@ body {
 }
 
 
-.project-media {
+/* =========================================
+   Project media gallery
+========================================= */
+
+.project-media-gallery {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 28px;
+
+    width: 100%;
+}
+
+
+.video-demo {
+    width: 100%;
+}
+
+
+.video-container {
     width: 100%;
 
     overflow: hidden;
 
     border-radius: 12px;
 
-    background: #f1f1f1;
+    border: 1px solid #ededed;
+
+    background: #fafafa;
 }
 
 
-.project-media video {
+.video-container video {
     display: block;
 
     width: 100%;
 
     height: auto;
 
-    object-fit: cover;
+    object-fit: contain;
+}
+
+
+.video-caption {
+    margin-top: 9px;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    color: #777;
 }
 
 
