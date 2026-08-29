@@ -961,7 +961,34 @@ body {
     transform: translate(2px, -2px);
 }
 
+/* =========================================
+   Software Video
+========================================= */
 
+.software-media {
+    width: 100%;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    border: 1px solid #ededed;
+
+    background: #fafafa;
+
+    margin-bottom: 28px;
+}
+
+
+.software-media video {
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+}
 /* =========================================
    Mobile
 ========================================= */
