@@ -686,6 +686,14 @@ body {
     border-radius: 16px;
 }
 
+.software-card-content {
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+
 
 .software-language {
     margin-bottom: 15px;
