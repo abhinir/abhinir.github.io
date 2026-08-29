@@ -1195,6 +1195,24 @@ body {
    .contact-card {
        padding: 26px;
    }
+
+   .software-grid {
+       grid-template-columns: 1fr;
+   
+       gap: 24px;
+   
+       max-width: none;
+   }
+   
+   
+   .software-card {
+       padding: 24px;
+   }
+   
+   
+   .software-media video {
+       aspect-ratio: 16 / 9;
+   }
 }
 
 
