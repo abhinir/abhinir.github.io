@@ -785,6 +785,10 @@ body {
     gap: 20px;
 
     align-items: center;
+
+    margin-top: auto;
+
+    padding-top: 5px;
 }
 
 
